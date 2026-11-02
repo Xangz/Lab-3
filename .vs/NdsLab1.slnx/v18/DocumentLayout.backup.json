@@ -90,8 +90,7 @@
               "RelativeToolTip": "NdsLab1\\Views\\Shared\\MyLayoutHelper.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T04:34:10.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T04:34:10.668Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "NdsLab1\\Views\\Learner\\Index.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAUwDYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T04:31:12.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T04:31:12.631Z"
             },
             {
               "$type": "Document",
@@ -114,7 +112,7 @@
               "RelativeDocumentMoniker": "NdsLab1\\Views\\Learner\\LearnerTable.cshtml",
               "ToolTip": "D:\\Study\\thirdyear\\I\\Laptrinhweb\\Thuchanh\\NdsLab1\\NdsLab1\\Views\\Learner\\LearnerTable.cshtml",
               "RelativeToolTip": "NdsLab1\\Views\\Learner\\LearnerTable.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-11-02T04:30:44.829Z",
               "EditorCaption": ""
@@ -129,8 +127,7 @@
               "RelativeToolTip": "NdsLab1\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-11-02T04:27:48.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T04:27:48.573Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "NdsLab1\\Controllers\\LearnerController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAA0wFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T03:41:40.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-02T03:41:40.518Z"
             }
           ]
         }
