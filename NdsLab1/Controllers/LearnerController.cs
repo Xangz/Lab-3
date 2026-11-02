@@ -15,10 +15,20 @@ namespace NdsLab1.Controllers
             db = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? mid)
         {
-            var learners = db.Learners.Include(m => m.Major).ToList();
-            return View(learners);
+            if (mid == null)
+            {
+                var learners = db.Learners.Include(m => m.Major).ToList();
+                return View(learners);
+            }
+            else
+            {
+                var learners = db.Learners
+                                 .Where(l => l.MajorID == mid)
+                                 .Include(m => m.Major).ToList();
+                return View(learners);
+            }
         }
         public IActionResult Create()
         {
@@ -63,6 +73,13 @@ namespace NdsLab1.Controllers
             }
 
             return View(learner);
+        }
+        public IActionResult LearnerByMajorID(int mid)
+        {
+            var learners = db.Learners
+                             .Where(l => l.MajorID == mid)
+                             .Include(m => m.Major).ToList();
+            return PartialView("LearnerTable", learners);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]

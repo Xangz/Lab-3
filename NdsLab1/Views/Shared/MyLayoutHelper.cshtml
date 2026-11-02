@@ -39,6 +39,7 @@
     <script src="~/js/site.js"></script>
 
     <!-- RenderSection với required: false (Không bắt buộc mọi View phải có) -->
-    @RenderSection("Scripts", required: false)
+   <script src="~/lib/jquery/dist/jquery.min.js"></script>
+   @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
